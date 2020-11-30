@@ -1,16 +1,10 @@
-# This is a sample Python script.
+my_int = 13
+my_float = 1.3
+my_str = "Hello world"
+my_list = ['b', '1']
+my_tuple = ('d', '3')
+my_dict = {'language': 'English', 'sport': 'football'}
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+type_of_list = [my_int, my_float, my_str, my_list, my_tuple, my_dict]
+for i in type_of_list:
+    print(f'{i} is {type(i)}')
